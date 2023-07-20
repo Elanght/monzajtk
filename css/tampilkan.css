@@ -1,0 +1,45 @@
+body {
+    background-image: url("image.jpg");
+    font-family: Arial, sans-serif;
+    color: #000000;
+    text-align: center;
+    
+ }
+ 
+ h2 {       
+    margin-top: 50px;
+    font-size: 28px;
+ }
+ 
+ .concert-list {
+    margin-top: 20px;
+ }
+ 
+ .concert-post {
+    margin-bottom: 20px;
+ }
+ 
+ .concert-post h4 {
+    font-size: 24px;
+ }
+ 
+ .concert-post p {
+    font-size: 16px;
+ }
+ 
+ .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #980000;
+    color: #ffffff;
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+ 
+ .btn:hover {
+    background-color: #000;
+    color: #fff;
+ }

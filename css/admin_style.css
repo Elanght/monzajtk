@@ -1,0 +1,105 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+  }
+  
+  .container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-image: url('image.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .container .content {
+    text-align: center;
+    color: #000000;
+  }
+  
+  .container .content h3 {
+    font-size: 30px;
+  }
+  
+  .container .content h3 span {
+    background: crimson;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 0 15px;
+  }
+  
+  .container .content h1 {
+    font-size: 50px;
+  }
+  
+  .container .content h1 span {
+    color: crimson;
+  }
+  
+  .container .content p {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .container form {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .container form label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #060505;
+  }
+  
+  .container form input[type="text"],
+  .container form input[type="date"],
+  .container form input[type="time"],
+  .container form input[type="number"] {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 17px;
+    margin-bottom: 10px;
+    background-color: #75b98c;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+  }
+  
+  .container form input[type="submit"] {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: crimson;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .container form input[type="submit"]:hover {
+    background-color: #ff4455;
+  }
+  
+  .container .btn {
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 20px;
+    background-color: crimson;
+    color: #fff;
+    border-radius: 5px;
+    text-transform: capitalize;
+    text-decoration: none;
+  }
+  
+  .container .btn:hover {
+    background-color: #ff4455;
+  }
+  

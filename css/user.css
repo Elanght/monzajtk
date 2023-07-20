@@ -1,0 +1,105 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+  }
+  body {
+
+  }
+  .container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+   
+  }
+ 
+ .content {
+    text-align: center;
+    margin-bottom: 30px;
+ }
+ 
+ .content h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+ }
+ 
+ .content h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+ }
+ 
+ .content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+ }
+ 
+ .concert-list {
+    text-align: center;
+ }
+ 
+ .concert-list h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+ }
+ 
+ .concert-post {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+ }
+ 
+ .concert-post h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+ }
+ 
+ .concert-post p {
+    font-size: 16px;
+    margin-bottom: 5px;
+ }
+ 
+ .concert-post form {
+    margin-top: 10px;
+ }
+ 
+ .concert-post input[type="text"],
+ .concert-post input[type="email"],
+ .concert-post input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+ }
+ 
+ .concert-post input[type="submit"] {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+ }
+ 
+ .concert-post input[type="submit"]:hover {
+    background-color: #555;
+ }
+ 
+ .btn {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+ }
+ 
+ .btn:hover {
+    background-color: #555;
+ }
